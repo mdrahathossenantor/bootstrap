@@ -1,0 +1,42 @@
+/* Navigation part start */
+.navbar{
+    padding: 00px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 22px;
+    padding: 11px 18px;
+    font-weight: 600;
+    transition: 01s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: aquamarine;
+    transition: 01s;
+}
+.navbar-nav .nav-item .nav-link:focus{
+    background-color: antiquewhite;
+}
+/* Navigation part end */
+
+
+/* Slide part start */
+.carousel-item{
+    height: 950px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+}
+/* Slide part end */
+/* About part start */
+.about_content h2{
+    font-size: 32px;
+    margin-top: 05px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about_content p{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+}
+/* About part end */
